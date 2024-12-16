@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "experiments": {
+      "newArchEnabled": true
+    },
+
+    "name": "MaarquesBarber",
+    "slug": "MaarquesBarber",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/img/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0D1321"
+    },
+    
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      }
+    },
+    
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.anonymous.MaarquesBarber"
+    },
+    "web": {
+      "favicon": "./assets/img/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8881022f-8979-4f0c-a1a4-e3b3512fd15f"
+      }
+    },
+    
+    
+    "owner": "crisdevrn"
+
+    
+  }
+  
+}
+
+
