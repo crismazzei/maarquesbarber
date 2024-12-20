@@ -1,24 +1,14 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "dbsi2",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "dbsi2",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "mysql"
-  },
-  "urlRoot": "http://192.168.1.12:3000/"  
+  }
 }
