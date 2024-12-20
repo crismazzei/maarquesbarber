@@ -14,6 +14,17 @@ import PerfilAdm from './arearestrita/PerfilAdm'
 import ListaUsuarios from './arearestrita/listas/ListaUsuarios';
 import ListaUsuariosBusca from './arearestrita/listas/ListaUsuariosBusca';
 
+require('dotenv').config();
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+// Outras configurações aqui...
+
+app.listen(port, () => {
+    console.log(`Servidor rodando na porta ${port}`);
+});
+
 export { 
     Home, 
     Login, 
